@@ -48,15 +48,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - **[Simple Animals Table]**
 - **[Filtering animals with age& neutered name etc]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
 
 <!-- GETTING STARTED -->
 
