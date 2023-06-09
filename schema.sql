@@ -33,7 +33,6 @@ create table vets (
 );
 
 create table specialization (
-    id serial primary key,
     vet_id int,
     species_id int,
     foreign key (vet_id) references vets(id),
@@ -41,7 +40,6 @@ create table specialization (
 );
 
 create table visits (
-    id serial primary key,
     animal_id int,
     vet_id int,
     visit_date date,
