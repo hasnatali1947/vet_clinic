@@ -30,7 +30,8 @@
 
 # 📖 [Vet_clinic] <a name="about-project"></a>
 
-**[Vet Clinic]** is a simple Database Project.
+**Vet clinic database** "In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it."
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +49,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Simple Animals Table]**
+- **[Create Database]**
+- **[Create table]**
+- **[Insert values in the table]**
+- **[Query through the database]**
+- **[DB performance Improvment]**
 - **[Filtering animals with age& neutered name etc]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,9 +100,12 @@ insert files...
 - Twitter: [@hasnatking1947](https://twitter.com/hasnatking1947)
 - LinkedIn: [Hasnat ali](https://www.linkedin.com/feed/?trk=homepage-basic_google-sign-in-submit)
 
-####Documentation 
-- [Video]: [Link](https://drive.google.com/file/d/11_12tOF8K6XA1ZLIavmJ3ApxGrO5AxlF/view)
-- 
+## 👥 Authors <a name="authors"></a>
+
+👤 **Atif Zada**
+- GitHub: [@Atif-Zada](https://github.com/AtifZada)
+- LinkedIn: [@Atif-Zada](https://linkedin.com/in/AtifZada)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>

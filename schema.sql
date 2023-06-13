@@ -15,6 +15,7 @@ CREATE TABLE owners (
 	full_name varchar(100),
 	age integer
 );
+
 create table species(
 	id serial PRIMARY KEY,
 	name varchar
@@ -33,6 +34,7 @@ create table vets (
 );
 
 create table specialization (
+    id serial primary key,
     vet_id int,
     species_id int,
     foreign key (vet_id) references vets(id),
@@ -40,9 +42,14 @@ create table specialization (
 );
 
 create table visits (
+    id serial primary key,
     animal_id int,
     vet_id int,
     visit_date date,
     foreign key (animal_id) references animals(id),
     foreign key (vet_id) references vets(id)
 );
+
+CREATE INDEX visits_animal_id_idx ON visits (animal_id);
+CREATE INDEX visits_vet_id_idx on visits (vet_id DESC);
+CREATE INDEX owners_indexs ON owners(email DESC)
